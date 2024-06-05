@@ -6,10 +6,10 @@ import { GalleryComponent } from './gallery/gallery.component';
 @NgModule({
   declarations: [
     AppComponent,
-    GalleryComponent,
   ],
   imports: [
     BrowserModule,
+    GalleryComponent,
   ],
   bootstrap: [AppComponent]
 })

@@ -2,7 +2,8 @@ import { AfterViewInit, Component, InputSignal, input } from '@angular/core';
 import GLightbox from 'glightbox';
 
 @Component({
-  selector: 'app-gallery',
+  selector: 'lib-glightbox',
+  standalone: true,
   templateUrl: './gallery.component.html',
   styleUrls: ['./gallery.component.scss']
 })

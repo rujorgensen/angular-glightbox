@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: '<app-gallery [gallery]="gallery" />',
+  template: '<lib-glightbox [gallery]="gallery" />',
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
