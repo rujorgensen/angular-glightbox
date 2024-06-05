@@ -30,8 +30,8 @@ dependencies:
     specifier: 18.0.1
     version: 18.0.1(@angular/common@18.0.1)(@angular/core@18.0.1)(@angular/platform-browser@18.0.1)(rxjs@7.8.1)
   glightbox:
-    specifier: 3.2.0
-    version: 3.2.0
+    specifier: 3.3.0
+    version: 3.3.0
   rxjs:
     specifier: 7.8.1
     version: 7.8.1
@@ -6873,8 +6873,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /glightbox@3.2.0:
-    resolution: {integrity: sha512-iit1xYixqL4YVL+I2YJLfMeyJwvLi6FE6kY3qNKeZHEJgRIz80QU8Rm7YCyw1wOTgXvmNDnXGVhHOHRCwnDltQ==}
+  /glightbox@3.3.0:
+    resolution: {integrity: sha512-SJukatHBZZ/POMOpLUQ6/dhXf/wJTDx1wZ/FwApjseXw2WrRj3Ze9DzNCFYzca0oU7RjXQhi9o02aIZ9SuCz1A==}
     dev: false
 
   /glob-parent@5.1.2:
