@@ -1,4 +1,4 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { AfterViewInit, Component, InputSignal, input } from '@angular/core';
 import GLightbox from 'glightbox';
 
 @Component({
@@ -7,18 +7,8 @@ import GLightbox from 'glightbox';
   styleUrls: ['./gallery.component.scss']
 })
 export class GalleryComponent implements AfterViewInit {
-  galleries = [
-    [
-      'assets/images/pexels-cat1.jpg',
-      'assets/images/pexels-cat2.jpg',
-      'assets/images/pexels-cat3.jpg',
-    ],
-    [
-      'assets/images/pexels-cat4.jpg',
-      'assets/images/pexels-cat5.jpg',
-      'assets/images/pexels-cat6.jpg',
-    ]
-  ]
+  
+  public readonly galleries: InputSignal<string[][]> = input.required();
 
   ngAfterViewInit(): void {
     GLightbox({});
