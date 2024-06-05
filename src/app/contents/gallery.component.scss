@@ -1,0 +1,21 @@
+:host {
+  .container {
+    text-align: center;
+  }
+
+  .title {
+    font-weight: 700;
+  }
+
+  .gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .image {
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+  }
+}
