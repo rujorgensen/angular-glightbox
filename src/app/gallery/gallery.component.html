@@ -2,8 +2,8 @@
 <div class="container">
   <div class="gallery">
     @for(image of gallery; track image){
-    <a class="glightbox" [href]="image" [attr.data-gallery]="'gallery1' + 1">
-      <img class="image" [src]="image" alt="">
+    <a class="glightbox" [href]="image" [attr.data-gallery]="'gallery_1'">
+      <img [src]="image" alt="">
     </a>
     }
   </div>
