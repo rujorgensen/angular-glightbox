@@ -1,3 +1,8 @@
+# NB!
+This is forked from https://github.com/negibouze/angular-glightbox, all credit goes to https://github.com/negibouze for this work.
+
+I've added NX for caching and migrating tooling, updated dependencies to make it more up-to-date, and simplified logic to make it more focused on just getting GLightBox to work in Angular.
+
 # AngularGlightbox
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
