@@ -8,7 +8,7 @@ import GLightbox from 'glightbox';
 })
 export class GalleryComponent implements AfterViewInit {
 
-  public readonly galleries: InputSignal<string[][]> = input.required();
+  public readonly gallery: InputSignal<string[]> = input.required();
 
   ngAfterViewInit(): void {
     GLightbox({});

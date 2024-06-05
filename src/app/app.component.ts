@@ -6,16 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  galleries = [
-    [
-      'assets/images/pexels-cat1.jpg',
-      'assets/images/pexels-cat2.jpg',
-      'assets/images/pexels-cat3.jpg',
-    ],
-    [
-      'assets/images/pexels-cat4.jpg',
-      'assets/images/pexels-cat5.jpg',
-      'assets/images/pexels-cat6.jpg',
-    ]
-  ]
+  protected readonly gallery: string[] = [
+    'assets/images/pexels-cat1.jpg',
+    'assets/images/pexels-cat2.jpg',
+    'assets/images/pexels-cat3.jpg',
+  ];
 }

@@ -1,9 +1,8 @@
-@for(gallery of galleries(); track gallery; let galleryIndex = $index){
+@if(gallery(); as gallery){
 <div class="container">
-  <h3 class="title">Gallery1-{{ galleryIndex + 1 }}</h3>
   <div class="gallery">
     @for(image of gallery; track image){
-    <a class="glightbox" [href]="image" [attr.data-gallery]="'gallery1' + (galleryIndex + 1)">
+    <a class="glightbox" [href]="image" [attr.data-gallery]="'gallery1' + 1">
       <img class="image" [src]="image" alt="">
     </a>
     }
