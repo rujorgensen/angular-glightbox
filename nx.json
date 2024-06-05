@@ -1,16 +1,4 @@
 {
-  "tasksRunnerOptions": {
-    "default": {
-      "runner": "nx-cloud",
-      "options": {
-        "cacheableOperations": [
-          "build",
-          "test"
-        ],
-        "accessToken": "ZGVhYWU3MTUtMzU2Ny00MGZmLWE0NjQtY2Y4NDJiZjkyOGE1fHJlYWQtd3JpdGU="
-      }
-    }
-  },
   "defaultBase": "master",
   "namedInputs": {
     "sharedGlobals": [],
@@ -32,13 +20,16 @@
       "inputs": [
         "production",
         "^production"
-      ]
+      ],
+      "cache": true
     },
     "test": {
       "inputs": [
         "default",
         "^production"
-      ]
+      ],
+      "cache": true
     }
-  }
+  },
+  "nxCloudAccessToken": "ZGVhYWU3MTUtMzU2Ny00MGZmLWE0NjQtY2Y4NDJiZjkyOGE1fHJlYWQtd3JpdGU="
 }
