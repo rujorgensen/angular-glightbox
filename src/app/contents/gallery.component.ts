@@ -2,11 +2,11 @@ import { AfterViewInit, Component } from '@angular/core';
 import GLightbox from 'glightbox';
 
 @Component({
-  selector: 'app-step1',
-  templateUrl: './step1.component.html',
-  styleUrls: ['./step1.component.css']
+  selector: 'app-gallery',
+  templateUrl: './gallery.component.html',
+  styleUrls: ['./gallery.component.css']
 })
-export class Step1Component implements AfterViewInit {
+export class GalleryComponent implements AfterViewInit {
   galleries = [
     [
       'assets/images/pexels-cat1.jpg',
